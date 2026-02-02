@@ -41,6 +41,9 @@ class HorizonExtractor(BaseExtractor):
                 .title()
             )
 
+        
+        
+
         # =========================
         # DURATION
         # =========================
@@ -52,7 +55,8 @@ class HorizonExtractor(BaseExtractor):
                 duration = el.get_text(strip=True)
                 break
 
-        # =========================
+       
+ # =========================
         # ELIGIBILITY
         # =========================
 
