@@ -1,0 +1,36 @@
+cat > /Users/prathikesh/Desktop/uni_scraper/.gitignore << 'EOF'
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Large files
+artifacts/
+*.pkl
+*.joblib
+*.db
+*.log
+EOF
